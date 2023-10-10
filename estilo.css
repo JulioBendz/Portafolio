@@ -293,7 +293,7 @@ html{
 }
 @keyframes photoshop {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 55%;}
 }
 
 .skills .skill .wordpress{
@@ -305,13 +305,13 @@ html{
     100%{width: 81%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .Vue{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s Vue forwards;
 }
-@keyframes drupal {
+@keyframes Vue {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 65%;}
 }
 
 .skills .skill .comunicacion{
@@ -628,6 +628,10 @@ footer .redes a{
     margin: 40px 5px;
     font-size: 20px;
     transition: .3s;
+    background-color: hsl(197, 100%, 47%);
+}
+footer .redes a:hover{
+background-color: rgb(0, 0, 0);
 }
 footer .arriba{
     display: block;
