@@ -54,11 +54,11 @@
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
             <h2>Sobre Mí</h2>
-            <p><span>Hola, soy Julio Bendezú.</span> Soy un apasionado de la tecnología con experiencia laboral que me ha permitido desempeñar roles de liderazgo, coordinación y supervisión con éxito. Destaco por la efectiva creación de herramientas de apoyo y la adaptación ágil a nuevas tecnologías. Mi enfoque actual se centra en el desarrollo web, una disciplina que combino hábilmente con otras áreas de interés.
+            <p><span>Hola, soy Julio Bendezú.</span> Soy un apasionado de la tecnología con experiencia laboral que me ha permitido desempeñar roles de liderazgo, coordinación y supervisión con éxito. Destaco por la efectiva creación de herramientas de apoyo y la adaptación ágil a nuevas tecnologías. Mi enfoque actual se centra en el desarrollo web, una disciplina que combino hábilmente con otras áreas de interés.<br><br>
 
-                Como entusiasta del aprendizaje, disfruto explorando y aplicando nuevas herramientas tecnológicas para mantenerme al tanto de las últimas tendencias. Mi búsqueda constante de oportunidades para mejorar mis habilidades refleja mi compromiso con el crecimiento profesional y la excelencia en el rendimiento.
+            Como entusiasta del aprendizaje, disfruto explorando y aplicando nuevas herramientas tecnológicas para mantenerme al tanto de las últimas tendencias. Mi búsqueda constante de oportunidades para mejorar mis habilidades refleja mi compromiso con el crecimiento profesional y la excelencia en el rendimiento.<br><br>
                 
-                Estoy emocionado por las perspectivas de nuevas oportunidades y desafíos que se presenten, y me comprometo a abordarlos con entusiasmo y determinación. Mi objetivo es alcanzar un rendimiento óptimo, demostrando plenamente mi potencial y contribución al mundo de la tecnología.</p>
+            Estoy emocionado por las perspectivas de nuevas oportunidades y desafíos que se presenten, y me comprometo a abordarlos con entusiasmo y determinación. Mi objetivo es alcanzar un rendimiento óptimo, demostrando plenamente mi potencial y contribución al mundo de la tecnología.</p>
 
             <div class="fila">
                 <!-- datos personales -->
@@ -75,7 +75,7 @@
                         </li>
                         <li>
                             <strong>Email</strong>
-                            bengutjul2@gmail.com / juliobendz13@gmail.com
+                            bengutjul2@gmail.com ó juliobendz13@gmail.com
                         </li>
                         <li>
                             <strong>Website</strong>
@@ -102,7 +102,7 @@
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-headphones"></i>
-                            <span>Musica</span>
+                            <span>Música</span>
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-plane"></i>
@@ -377,15 +377,22 @@
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
+                    <form action="enviar_formulario.php" method="post">
+                        <!-- Campo de Nombre -->
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre" required>
+
+                        <!-- Campo de Dirección de Correo -->
+                        <input type="email" id="correo" name="correo" placeholder="Dirección de Correo" required>
+
+                        <!-- Campo de Mensaje -->
+                        <textarea id="mensaje" name="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+
+                        <!-- Botón de Envío -->
+                        <button type="submit">
+                            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
                 </div>
                 <!-- Mapa -->
                 <div class="col">
@@ -402,7 +409,7 @@
                             </li>
                             <li>
                                 <i class="fa-solid fa-envelope"></i>
-                                Email: cw@example.com
+                                Email: bengutjul2@gmail.com ó juliobendz13@gmail.com
                             </li>
                         </ul>
                     </div>
